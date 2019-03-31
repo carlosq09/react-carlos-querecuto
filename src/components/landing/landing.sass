@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+$article-title: 'Lato', sans-serif;
+
+.landing
+    height: 100vh
+    //background: radial-gradient(ellipse at bottom, #40001d 0%, black 100%)
+    background: url('../../img/portafolionew.png')  center 
+    background-size: 60vw
+    animation: bg-animationl linear 40s infinite
+    @keyframes bg-animationl
+        from
+            background-position: 0% 0px;
+        to
+            background-position: 100% 0px;
+   
+.shadow
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)
+
+.header
+    position: relative
+    float: left
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    h3
+        font-size: 30px
+        font-family: $article-title
+        color: white
+    h4
+        font-size: 15px
+        font-family: $article-title
+        color: white
+
+

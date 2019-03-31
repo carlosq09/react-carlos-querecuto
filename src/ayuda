@@ -1,0 +1,16 @@
+      return (
+        <nav className="navbar is-black " role="navigation" aria-label="main navigation">
+            <div className="navbar-brand container">
+                <Navbar_burger toggle={this.handleClick} toggled={this.state.toggled}/>
+                <div id="navbarBasicExample" className={this.state.toggled ?"navbar-menu is-active":"navbar-menu"}>
+                <div className="navbar-start">
+                <Navbar_item item="About" image=""/>
+                <Navbar_item item="Resume" image=""/>
+                <Navbar_item item="Skills" image=""/>
+                </div>
+            </div>
+            </div>
+            
+        </nav>
+        
+      );
