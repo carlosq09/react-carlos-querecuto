@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-portafolio/precache-manifest.77d5184bcf84d1cee14e0bd4a9007a47.js"
+  "/react-carlos-querecuto/precache-manifest.1c76991858ced4571c3b40cd83797b6d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-portafolio/index.html", {
+workbox.routing.registerNavigationRoute("/react-carlos-querecuto/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
